@@ -25,6 +25,8 @@ class ApiServiceProvider extends ServiceProvider
 
         Response::setFormatters($this->prepareConfigInstances($this->app['config']['api::formats']));
         Response::setTransformer($this->app['api.transformer']);
+
+        $this->app->register('Morrislaptop\LaravelFivePackageBridges\ConfigServiceProvider');
     }
 
     /**

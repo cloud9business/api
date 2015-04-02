@@ -26,6 +26,7 @@
         "illuminate/filesystem": "4.2.*",
         "phpunit/phpunit": "~4.0",
         "mockery/mockery": "~0.9",
+        "morrislaptop/laravel-five-package-bridges": "~1.0",
         "squizlabs/php_codesniffer": "~2.0"
     },
     "suggest": {

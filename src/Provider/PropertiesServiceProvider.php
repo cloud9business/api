@@ -8,6 +8,12 @@ use Illuminate\Support\ServiceProvider;
 class PropertiesServiceProvider extends ServiceProvider
 {
     /**
+     * @var
+     */
+    protected $namespace = 'dingo.api';
+
+
+    /**
      * Boot the service provider.
      *
      * @return void
