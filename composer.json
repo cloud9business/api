@@ -10,24 +10,17 @@
         }
     ],
     "require": {
-        "php": ">=5.4.0",
-        "illuminate/support": "~4.1",
-        "league/fractal": "0.11.*"
+        "php": ">=5.6.0",
+        "illuminate/support": "5.0.*",
+        "league/fractal": "0.12.*",
+        "morrislaptop/laravel-five-package-bridges": "~1.0"
     },
     "require-dev": {
-        "lucadegasperi/oauth2-server-laravel": "3.0.*",
-        "tymon/jwt-auth": "0.4.*",
-        "illuminate/routing": "4.2.*",
-        "illuminate/events": "4.2.*",
-        "illuminate/auth": "4.2.*",
-        "illuminate/database": "4.2.*",
-        "illuminate/pagination": "4.2.*",
-        "illuminate/console": "4.2.*",
-        "illuminate/filesystem": "4.2.*",
-        "phpunit/phpunit": "~4.0",
+        "lucadegasperi/oauth2-server-laravel": "4.0.x@dev",
+        "tymon/jwt-auth": "0.5.*",
+        "phpunit/phpunit": "4.5.*",
         "mockery/mockery": "~0.9",
-        "morrislaptop/laravel-five-package-bridges": "~1.0",
-        "squizlabs/php_codesniffer": "~2.0"
+        "squizlabs/php_codesniffer": "~2.3"
     },
     "suggest": {
         "lucadegasperi/oauth2-server-laravel": "Use the League OAuth 2.0 server to protect your API.",
