@@ -1,6 +1,6 @@
 # API for Laravel
 
-This is an API package for the Laravel framework. It allows you to build a flexible RESTful API that can be consumed externally and by your own application.
+This is an API package for the Laravel 5 framework. It allows you to build a flexible RESTful API that can be consumed externally and by your own application.
 
 [![Build Status](https://travis-ci.org/dingo/api.svg?branch=master)](https://travis-ci.org/dingo/api)
 
